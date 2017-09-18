@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-color: black;
+    font-size: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/playful-kitten-6683.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+#title {
+    font-size: 10vmin;
+    margin: 2vh 0 0 2.5vw;
+}
+
+.orange-drop {
+    color: orange;
+    text-shadow: .25vmin .3vmin darkslategray;
+}
+
+#netflix {
+    display: inline-block;
+    margin: 2vh 0 0 2.5vw;
+}
+
+#netflix img {
+    height: 6vh;
+    width: auto;
+    vertical-align: middle;
+}
+
+#schedule-box {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    opacity: .8;
+    max-height: 60vh;
+    max-width: 60vw;
+    border: .5vh solid orange;
+    border-radius: 2%;
+    margin: auto;
+}
+
+
+
+#close {
+    height:4vh;
+    width: auto;
+    position: absolute;
+    top: -2vh;
+    right: -2vh;
+}
+
+table {
+    color: orange;
+}
+
+.navigation {
+    display: block;
+    position: absolute;
+    margin: 2%;
+    bottom: 0;
+    right: 0;
+}
+
+.navigation li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    font-size: 5vmin;
+    color: orange;
+    cursor: pointer;
+    text-shadow: .25vmin .3vmin darkslategray;
+    padding-right: 1vw;
+}
+
+.navigation li:hover {
+    font-size: 7.5vmin;
+    transition: font-size 0.3s ease-out;
+}
+
+#home:hover {
+    font-size: 7.5vmin;
+    transition: font-size 0.3s ease-out;
+}
+
+.pawprint {
+    display: block;
+    height: 4vh;
+    width: auto;
+    margin: auto;
+}
+
+
+.navigation li img {
+    display: none;
+}
+
+.navigation li:hover img {
+    display: block;
+}
+
