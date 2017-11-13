@@ -71,6 +71,7 @@ table {
 
 .navigation li {
     position: relative;
+    overflow: auto;
     display: inline-block;
     list-style-type: none;
     text-align: center;
@@ -78,18 +79,14 @@ table {
     color: orange;
     cursor: pointer;
     text-shadow: .25vmin .3vmin darkslategray;
-    padding-right: 1vw;
+    padding: 1vw;
 }
 
 .navigation li:hover {
     font-size: 7.5vmin;
-    transition: font-size 0.3s ease-out;
+    transition: font-size 0.3s ease-in;
 }
 
-#home:hover {
-    font-size: 7.5vmin;
-    transition: font-size 0.3s ease-out;
-}
 
 .pawprint {
     display: block;
@@ -106,4 +103,3 @@ table {
 .navigation li:hover img {
     display: block;
 }
-
